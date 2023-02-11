@@ -29,22 +29,22 @@ public class Main {
 
 
 
-        Dev devCamila = new Dev();
-        devCamila.setNome("Camila");
-        devCamila.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Camila: "+devCamila.getConteudosInscritos());
-        devCamila.progredir();
-        System.out.println("Conteúdos Concluídos Camila: "+devCamila.getConteudosConcluidos());
-        System.out.println("XP:" + devCamila.calcularTotalXp());
+        Dev devJean = new Dev();
+        devJean.setNome("Jean");
+        devJean.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Jean: "+devJean.getConteudosInscritos());
+        devJean.progredir();
+        System.out.println("Conteúdos Concluídos Jean: "+devJean.getConteudosConcluidos());
+        System.out.println("XP:" + devJean.calcularTotalXp());
 
-        Dev devJoao = new Dev();
-        devJoao.setNome("João");
-        devJoao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos João: "+devJoao.getConteudosInscritos());
-        devJoao.progredir();
-        devJoao.progredir();
-        devJoao.progredir();
-        System.out.println("Conteúdos Concluídos João: "+devJoao.getConteudosConcluidos());
-        System.out.println("XP:" + devJoao.calcularTotalXp());
+        Dev devPedro = new Dev();
+        devPedro.setNome("Pedro");
+        devPedro.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Pedro: "+devPedro.getConteudosInscritos());
+        devPedro.progredir();
+        devPedro.progredir();
+        devPedro.progredir();
+        System.out.println("Conteúdos Concluídos Pedro: "+devPedro.getConteudosConcluidos());
+        System.out.println("XP:" + devPedro.calcularTotalXp());
     }
 }

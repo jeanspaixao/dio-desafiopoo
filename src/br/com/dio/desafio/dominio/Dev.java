@@ -20,7 +20,7 @@ public class Dev {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
         } else{
-            System.out.println("Você não está matriculado em nenhum conteúdo!");
+            System.out.println("Você não está matriculado em nenhum conteúdo! Matricule-se já!");
         }
     }
 
